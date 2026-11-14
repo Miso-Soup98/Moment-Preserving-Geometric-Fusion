@@ -2,11 +2,11 @@
 
 **MPGF** is a geometric deep learning model for joint sequence and structure generation. It combines the mean and row covariance of candidate atom roles so that uncertain identities can inform geometric message passing throughout iterative refinement.
 
-This repository accompanies **Beyond Anonymous Atoms with Moment-Preserving Geometric Fusion for Antibody Co-Design** and provides the PyTorch model, dataset preparation, training, and inference code.
+This repository accompanies **Beyond Anonymous Atoms: Moment-Preserving Geometric Fusion for Antibody Co-Design** and provides the PyTorch model, dataset preparation, training, and inference code.
 
 ![MPGF iterative refinement: identity beliefs determine role moments, which combine with atom-pair distances to drive message passing, coordinate refinement, and sequence updates.](assets/refinement.png)
 
-*Iterative sequence–structure refinement from the accompanying manuscript. Role moments are recomputed as identity probabilities evolve; geometric relations are recomputed as coordinates change.*
+*Iterative sequence–structure refinement from the accompanying manuscript. Role moments are recomputed as identity probabilities evolve; geometric relations are recomputed as coordinates change.* [Vector PDF](assets/refinement.pdf)
 
 [Method](#method) · [Installation](#installation) · [Data preparation](#data-preparation) · [Training](#training) · [Inference](#inference) · [Code structure](#code-structure)
 
